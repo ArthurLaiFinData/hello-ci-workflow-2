@@ -1,0 +1,29 @@
+{
+  "name": "hello-ci-workflow-2",
+  "version": "1.0.0",
+  "description": "no description, Arthur",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FinDataArthurLai/hello-ci-workflow-2.git"
+  },
+  "keywords": [
+    "hello-ci-workflow-2"
+  ],
+  "author": "Arthur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FinDataArthurLai/hello-ci-workflow-2/issues"
+  },
+  "homepage": "https://github.com/FinDataArthurLai/hello-ci-workflow-2#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
