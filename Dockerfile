@@ -2,7 +2,7 @@
 # Dockerfile
 
 # 從 [Docker Hub](https://hub.docker.com/) 安裝 Node.js image。
-FROM node:6.2.0
+FROM node: 4.4.4
 
 # 設定 container 的預設目錄位置
 WORKDIR /hello-ci-workflow-7
@@ -13,6 +13,6 @@ ADD . /hello-ci-workflow-7
 RUN npm install
 
 # 開放 container 的 3000 port
-EXPOSE 3080
+EXPOSE 3000
 CMD ["npm", "start"]
 
